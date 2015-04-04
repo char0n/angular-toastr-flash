@@ -8,7 +8,7 @@ angular-toastr-flash adds support for flashing to angular-toastr.
 Installation
 ------------
 
-You can easily install FFmpegPHP via PEAR framework: ::
+::
 
  $ bower install angular-toastr-flash
 
