@@ -2,6 +2,10 @@
   "name": "angular-toastr-flash",
   "version": "1.0.0-beta.1",
   "authors": ["Vladimír Gorej <gorej@codescale.net>"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CodeScaleInc/angular-toastr.flash.git"
+  },
   "keywords": [
     "angular",
     "angularjs",
