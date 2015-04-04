@@ -31,8 +31,7 @@ Add angular-toastr-flash to your module dependencies: ::
 
 Module api for toastr: ::
  
- // In all calls only first argument is required.
- // Tosts get displyed after 
+ // In all calls only first argument is required. Toasts get displyed after successful route change event.
  flash.info('Info message'); 
  flash.success('Success message', 'Success title');
  flash.warning('Warning message', 'Warning title', {}); // This argument is for angular-toastr-options
@@ -43,6 +42,10 @@ Module api for custom callbacks: ::
  flash.callback(function() {
   // your code goes here.
  });
+ 
+ Clearing flash buffer from delayed toasts and custom callbacks: ::
+ 
+  flash.clear();
  
 
 Author
