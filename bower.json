@@ -13,7 +13,7 @@
     "./src/angular-toastr-flash.js"
   ],
   "ignore": [
-    "./gitignore"
+    "./.gitignore"
   ],
   "dependencies": {
     "angular-toastr": "latest",
