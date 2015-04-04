@@ -1,0 +1,23 @@
+{
+  "name": "angular-toastr-flash",
+  "version": "1.0.0-beta.1",
+  "authors": ["Vladimír Gorej <gorej@codescale.net>"],
+  "keywords": [
+    "angular",
+    "angularjs",
+    "toast",
+    "toastr",
+    "flash"
+  ],
+  "main": [
+    "./src/angular-toastr-flash.js"
+  ],
+  "ignore": [
+    "./gitignore"
+  ],
+  "dependencies": {
+    "angular-toastr": "latest",
+    "lodash": "latest",
+    "angular-lodash-module": "latest"
+  }
+}
