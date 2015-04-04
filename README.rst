@@ -13,16 +13,26 @@ You can easily install FFmpegPHP via PEAR framework: ::
  $ bower install angular-toastr-flash
 
 
+Configuration
+-------------
+::
+
+ .config(['flashConfig', function(flashConfig) {
+   flashConfig.routeStateChanges = ['$stateChangeSuccess'];
+ }])
+
+
 Using angular-toastr-flash
 --------------------------
 
 Add angular-toastr-flash to your module dependencies: ::
 
- angular.module('app', ['angular-toastr-flash'])
+ angular.module('app', ['angular-toastr-flash']);
 
 Module api for toastr: ::
  
  // In all calls only first argument is required.
+ // Tosts get displyed after 
  flash.info('Info message'); 
  flash.success('Success message', 'Success title');
  flash.warning('Warning message', 'Warning title', {}); // This argument is for angular-toastr-options
