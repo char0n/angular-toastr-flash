@@ -29,7 +29,7 @@ angular.module('angular-toastr-flash', [])
           });
           callbacks.slice().forEach(function(callback) {
             callback.call(null);
-            _.pull(callback, callbacks);
+            _.pull(callbacks, callback);
           });
         });
       });
